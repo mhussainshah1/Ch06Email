@@ -2,6 +2,9 @@ package murach.business;
 
 import java.io.Serializable;
 
+/**
+ * @author Muhammad Shah
+ */
 public class User implements Serializable {
 
     private String firstName;
