@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ch06Email.iml" filepath="$PROJECT_DIR$/Ch06Email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch06JSP.iml" filepath="$PROJECT_DIR$/Ch06JSP.iml" />
     </modules>
   </component>
 </project>

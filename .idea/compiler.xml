@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Ch06Email" />
+        <module name="Ch06JSP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Ch06Email" target="1.8" />
+      <module name="Ch06JSP" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
