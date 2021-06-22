@@ -2,25 +2,24 @@ package murach.business;
 
 import java.io.Serializable;
 
-/**
- * @author Muhammad Shah
- */
 public class User implements Serializable {
-
     private String firstName;
     private String lastName;
     private String email;
+    private String wantsUpdates;
 
     public User() {
         firstName = "";
         lastName = "";
         email = "";
+        wantsUpdates = "Yes";
     }
 
     public User(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this .wantsUpdates = "Yes";
     }
 
     public String getFirstName() {
@@ -45,5 +44,23 @@ public class User implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getWantsUpdates() {
+        return wantsUpdates;
+    }
+
+    public void setWantsUpdates(String wantsUpdates) {
+        this.wantsUpdates = wantsUpdates;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", wantsUpdates='" + wantsUpdates + '\'' +
+                '}';
     }
 }
